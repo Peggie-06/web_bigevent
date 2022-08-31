@@ -22,7 +22,7 @@
 }
 
 .layui-side .userinfo {
-  border: 1px solid #282b33;
+  border-bottom: 1px solid #282b33;
 }
 
 .layui-nav-img {
@@ -38,6 +38,7 @@
   height: 40px;
   margin-right: 10px;
   font-size: 20px;
+  color: #fff;
   line-height: 40px;
   text-align: center;
   background-color: #009688;
@@ -51,6 +52,10 @@
 iframe {
   width: 100%;
   height: 100%;
+}
+
+.layui-body {
+  overflow: hidden;
 }
 
 /* 清除a链接的动画效果 */
