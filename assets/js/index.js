@@ -33,7 +33,7 @@ function getUserInfo() {
       }
       // 渲染用户头像
       renderAvatar(res.data)
-    },
+    }
     // // 不论成功还是失败，最终都会调用 complete 回调函数
     // complete: function(res) {
     //   console.log(res)
